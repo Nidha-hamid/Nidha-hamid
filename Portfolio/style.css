@@ -1,0 +1,59 @@
+#portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    border: 2px solid black;
+    width: 60vw;
+    padding:  10px;
+    margin: auto;
+
+    
+}
+.section-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f1f1f1;
+}
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #149ad8;
+}
+.profile-picture{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px 0;
+    color: white;
+}
+
+.profile-links{
+    display: flex;
+    gap: 10px;
+
+}
+
+.profile-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-links a{
+    text-decoration: none;
+    color: white;
+}
+.profile-link img{
+    height: 30px;
+    width: 30px;
+}
